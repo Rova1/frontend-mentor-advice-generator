@@ -69,8 +69,10 @@ img {
   border-radius: 50%;
 }
 
-.advice__btn:hover {
-  box-shadow: 0 0 3px 3px var(--clr-primary);
+@media (hover: hover) {
+  .advice__btn:hover {
+    box-shadow: 0 0 3px 3px var(--clr-primary);
+  }
 }
 
 .fetch-error {
