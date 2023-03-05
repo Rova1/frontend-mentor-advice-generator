@@ -12,6 +12,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Resources](#resources)
 - [Author](#author)
 
 ## Overview
@@ -41,6 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Mobile-first workflow
 - fetch API
+- Reponsive images in HTML
 
 ### What I learned
 
@@ -66,9 +68,31 @@ fetch('https://api.adviceslip.com/advice')
   });
 ```
 
+I also learned how to use the 'picture' and 'source' elements to have the browser choose between different images based on the viewport.
+
+The code for this is:
+
+```html
+<picture>
+  <source
+    srcset="images/pattern-divider-desktop.svg"
+    media="(min-width: 600px)"
+  />
+  <img
+    src="images/pattern-divider-mobile.svg"
+    alt=""
+    class="advice__divider-svg"
+  />
+</picture>
+```
+
 ### Continued development
 
 After finishing this very simple project, I want to complete some more API projects with more complicated requirements.
+
+### Resources
+
+- [A guide to the responsive images syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
 
 ## Author
 

@@ -22,7 +22,10 @@
       <h2 class="advice__title">Advice #<span id="advice-id"></span></h2>
       <p class="advice__text">"<span id="advice"></span>"</p>
       <div class="advice__divider">
-        <img src="images/pattern-divider-mobile.svg" alt="" class="advice__divider-svg">
+        <picture>
+          <source srcset="images/pattern-divider-desktop.svg" media="(min-width: 600px)">
+          <img src="images/pattern-divider-mobile.svg" alt="" class="advice__divider-svg">
+        </picture>
       </div>
       <button class="advice__btn" id="advice-btn">
         <img src="images/icon-dice.svg" alt="" class="advice__btn-svg">
