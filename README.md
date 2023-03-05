@@ -72,4 +72,4 @@ After finishing this very simple project, I want to complete some more API proje
 
 ## Author
 
-- Frontend Mentor - [@yRova1](https://www.frontendmentor.io/profile/Rova1)
+- Frontend Mentor - [@Rova1](https://www.frontendmentor.io/profile/Rova1)
