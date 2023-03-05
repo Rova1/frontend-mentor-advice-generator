@@ -86,13 +86,24 @@ The code for this is:
 </picture>
 ```
 
+Lastly I learned how to avoid 'sticky hover styles' on touch devices like phones and tablet using this media query:
+
+```css
+@media (hover: hover) {
+  .advice__btn:hover {
+    box-shadow: 0 0 3px 3px var(--clr-primary);
+  }
+}
+```
+
 ### Continued development
 
 After finishing this very simple project, I want to complete some more API projects with more complicated requirements.
 
 ### Resources
 
-- [A guide to the responsive images syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
+- [A Guide to the Responsive Images Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
+- [Solving Sticky Hover States with @media (hover: hover)](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/)
 
 ## Author
 
